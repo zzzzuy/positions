@@ -1,8 +1,8 @@
 {
   "Spot": [
-    {"symbol":"BTCUSDT", "position":"W1"},
-    {"symbol":"BUSDUSDT", "position":"E1"},
-    {"symbol":"BTCBUSD", "position":"F1"}
+    {"symbol":"BTCUSDT", "position":"D222"},
+    {"symbol":"BUSDUSDT", "position":"E222"},
+    {"symbol":"BTCBUSD", "position":"F222"}
   ],
   "P2P":[
   {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"BUY", "amount":1000,         "position":"C5"},
