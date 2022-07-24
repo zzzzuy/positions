@@ -1,6 +1,6 @@
 {
   "Spot": [
-    {"symbol":"BTCUSDT", "position":"D1"},
+    {"symbol":"BTCUSDT", "position":"W1"},
     {"symbol":"BUSDUSDT", "position":"E1"},
     {"symbol":"BTCBUSD", "position":"F1"}
   ],
