@@ -5,8 +5,8 @@
     {"symbol":"ADAUSDT", "position":"B7"}
   ],
   "P2P":[
-   {"symbol":"USDT", "fiat": "RUB" ,"BANK":"advcash", "tradtype":"BUY", "amount":1000,  "position":"B13"},
-   {"symbol":"USDT", "fiat": "RUB" ,"BANK":"advcash", "tradtype":"SELL", "amount":1000,  "position":"C13"},
+   {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"BUY", "amount":1000,  "position":"B13"},
+   {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"SELL", "amount":1000,  "position":"C13"},
    
    {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"BUY", "amount":1000,  "position":"B14"},
    {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"SELL", "amount":1000,  "position":"C14"},
