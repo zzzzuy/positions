@@ -12,6 +12,6 @@
    {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"SELL", "amount":1000,  "position":"C14"},
     
    {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"BUY", "amount":1000,  "position":"B15"},
-   {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":1000,  "position":"C15"},
-]
+   {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":1000,  "position":"C15"}
+  ]
 }
