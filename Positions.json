@@ -273,7 +273,7 @@
 
      {"symbol":"BTC", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"SELL", "amount":10,  "position":"M15"},
      {"symbol":"BTC", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"SELL", "amount":10,  "position":"M16"},
-     {"symbol":"ETH", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"SELL", "amount":10,  "position":"M1&"},
+     {"symbol":"ETH", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"SELL", "amount":10,  "position":"M17"},
      {"symbol":"BNB", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"SELL", "amount":10,  "position":"M18"}
 
     ]
