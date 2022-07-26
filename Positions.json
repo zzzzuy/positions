@@ -64,6 +64,27 @@
      {"symbol":"BTC", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":500,  "position":"E22"},
      {"symbol":"ETH", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":500,  "position":"E23"},
      {"symbol":"BNB", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":500,  "position":"E24"},
+        
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"BUY", "amount":500,  "position":"B33"},
+     {"symbol":"BTC", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"BUY", "amount":500,  "position":"B34"},
+     {"symbol":"ETH", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"BUY", "amount":500,  "position":"B35"},
+     {"symbol":"BNB", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"BUY", "amount":500,  "position":"B36"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"BUY", "amount":null,  "position":"C33"},
+     {"symbol":"BTC", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"BUY", "amount":null,  "position":"C34"},
+     {"symbol":"ETH", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"BUY", "amount":null,  "position":"C35"},
+     {"symbol":"BNB", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"BUY", "amount":null,  "position":"C36"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"SELL", "amount":null,  "position":"D33"},
+     {"symbol":"BTC", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"SELL", "amount":null,  "position":"D34"},
+     {"symbol":"ETH", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"SELL", "amount":null,  "position":"D35"},
+     {"symbol":"BNB", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"SELL", "amount":null,  "position":"D36"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"SELL", "amount":500,  "position":"E33"},
+     {"symbol":"BTC", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"SELL", "amount":500,  "position":"E34"},
+     {"symbol":"ETH", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"SELL", "amount":500,  "position":"E35"},
+     {"symbol":"BNB", "fiat": "RUB" ,"BANK":"AkBarsBank", "tradtype":"SELL", "amount":500,  "position":"E36"},
+        
 
 
      {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":500,  "position":"B27"},
