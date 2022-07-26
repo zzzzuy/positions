@@ -66,25 +66,25 @@
      {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":500,  "position":"E24"},
 
 
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":500,  "position":"B15"},
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":500,  "position":"B16"},
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":500,  "position":"B17"},
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":500,  "position":"B18"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":500,  "position":"B27"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":500,  "position":"B28"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":500,  "position":"B29"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":500,  "position":"B30"},
 
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":null,  "position":"C15"},
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":null,  "position":"C16"},
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":null,  "position":"C17"},
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":null,  "position":"C18"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":null,  "position":"C27"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":null,  "position":"C28"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":null,  "position":"C29"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":null,  "position":"C30"},
 
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":null,  "position":"D15"},
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":null,  "position":"D16"},
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":null,  "position":"D17"},
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":null,  "position":"D18"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":null,  "position":"D27"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":null,  "position":"D28"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":null,  "position":"D29"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":null,  "position":"D30"},
 
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":500,  "position":"E15"},
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":500,  "position":"E16"},
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":500,  "position":"E17"},
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":500,  "position":"E18"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":500,  "position":"E27"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":500,  "position":"E28"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":500,  "position":"E29"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":500,  "position":"E30"},
      
 
      {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"BUY", "amount":500,  "position":"B39"},
