@@ -1,17 +1,281 @@
 {
-  "Spot": [
-    {"symbol":"BTCUSDT", "position":"B5"},
-    {"symbol":"BNBUSDT", "position":"B6"},
-    {"symbol":"ADAUSDT", "position":"B7"}
-  ],
-  "P2P":[
-   {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"BUY", "amount":1000,  "position":"B13"},
-   {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"SELL", "amount":1000,  "position":"C13"},
-   
-   {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"BUY", "amount":1000,  "position":"B14"},
-   {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"SELL", "amount":1000,  "position":"C14"},
-    
-   {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"BUY", "amount":1000,  "position":"B15"},
-   {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":1000,  "position":"C15"}
-  ]
-}
+    "Spot": [
+      {"symbol":"BTCUSDT", "position":"B5"},
+      {"symbol":"ETHUSDT", "position":"B6"},
+      {"symbol":"BNBUSDT", "position":"B7"},
+      {"symbol":"BCHUSDT", "position":"B8"},
+      {"symbol":"LTCUSDT", "position":"B9"},
+      {"symbol":"DASHUSDT","position":"B10"},
+      {"symbol":"MDTUSDT", "position":"B11"},
+
+      {"symbol":"ETHBTC",  "position":"C6"},
+      {"symbol":"BNBBTC",  "position":"C7"},
+      {"symbol":"BCHBTC",  "position":"C8"},
+      {"symbol":"LTCBTC",  "position":"C9"},
+      {"symbol":"DASHBTC", "position":"C10"},
+      {"symbol":"MDTBTC",  "position":"C11"},
+
+      {"symbol":"BNBETH",  "position":"D7"},
+      {"symbol":"LTCETH",  "position":"D9"},
+      {"symbol":"DASHETH", "position":"D10"},
+
+      {"symbol":"BCHBNB",  "position":"E8"},
+      {"symbol":"LTCBNB",  "position":"E9"},
+      {"symbol":"DASHBNB", "position":"E10"}
+    ],
+    "P2P":[
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"BUY", "amount":500,  "position":"B15"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"BUY", "amount":500,  "position":"B16"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"BUY", "amount":500,  "position":"B17"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"BUY", "amount":500,  "position":"B18"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"BUY", "amount":null,  "position":"C15"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"BUY", "amount":null,  "position":"C16"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"BUY", "amount":null,  "position":"C17"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"BUY", "amount":null,  "position":"C18"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"SELL", "amount":null,  "position":"D15"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"SELL", "amount":null,  "position":"D16"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"SELL", "amount":null,  "position":"D17"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"SELL", "amount":null,  "position":"D18"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"SELL", "amount":500,  "position":"E15"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"SELL", "amount":500,  "position":"E16"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"SELL", "amount":500,  "position":"E17"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Tinkoff", "tradtype":"SELL", "amount":500,  "position":"E18"},
+
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"BUY", "amount":500,  "position":"B21"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"BUY", "amount":500,  "position":"B22"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"BUY", "amount":500,  "position":"B23"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"BUY", "amount":500,  "position":"B24"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"BUY", "amount":null,  "position":"C21"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"BUY", "amount":null,  "position":"C22"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"BUY", "amount":null,  "position":"C23"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"BUY", "amount":null,  "position":"C24"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":null,  "position":"D21"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":null,  "position":"D22"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":null,  "position":"D23"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":null,  "position":"D24"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":500,  "position":"E21"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":500,  "position":"E22"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":500,  "position":"E23"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RosBank", "tradtype":"SELL", "amount":500,  "position":"E24"},
+
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":500,  "position":"B15"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":500,  "position":"B16"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":500,  "position":"B17"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":500,  "position":"B18"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":null,  "position":"C15"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":null,  "position":"C16"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":null,  "position":"C17"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"BUY", "amount":null,  "position":"C18"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":null,  "position":"D15"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":null,  "position":"D16"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":null,  "position":"D17"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":null,  "position":"D18"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":500,  "position":"E15"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":500,  "position":"E16"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":500,  "position":"E17"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"QIWI", "tradtype":"SELL", "amount":500,  "position":"E18"},
+     
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"BUY", "amount":500,  "position":"B39"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"BUY", "amount":500,  "position":"B40"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"BUY", "amount":500,  "position":"B41"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"BUY", "amount":500,  "position":"B42"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"BUY", "amount":null,  "position":"C39"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"BUY", "amount":null,  "position":"C40"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"BUY", "amount":null,  "position":"C41"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"BUY", "amount":null,  "position":"C42"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"SELL", "amount":null,  "position":"D39"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"SELL", "amount":null,  "position":"D40"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"SELL", "amount":null,  "position":"D41"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"SELL", "amount":null,  "position":"D42"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"SELL", "amount":500,  "position":"E39"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"SELL", "amount":500,  "position":"E40"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"SELL", "amount":500,  "position":"E41"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankRussia", "tradtype":"SELL", "amount":500,  "position":"E42"},
+
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"BUY", "amount":500,  "position":"B45"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"BUY", "amount":500,  "position":"B46"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"BUY", "amount":500,  "position":"B47"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"BUY", "amount":500,  "position":"B48"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"BUY", "amount":null,  "position":"C45"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"BUY", "amount":null,  "position":"C46"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"BUY", "amount":null,  "position":"C47"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"BUY", "amount":null,  "position":"C48"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"SELL", "amount":null,  "position":"D45"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"SELL", "amount":null,  "position":"D46"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"SELL", "amount":null,  "position":"D47"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"SELL", "amount":null,  "position":"D48"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"SELL", "amount":500,  "position":"E45"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"SELL", "amount":500,  "position":"E46"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"SELL", "amount":500,  "position":"E47"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"PostBankRussia", "tradtype":"SELL", "amount":500,  "position":"E48"},
+
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"BUY", "amount":500,  "position":"B51"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"BUY", "amount":500,  "position":"B52"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"BUY", "amount":500,  "position":"B53"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"BUY", "amount":500,  "position":"B54"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"BUY", "amount":null,  "position":"C51"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"BUY", "amount":null,  "position":"C52"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"BUY", "amount":null,  "position":"C53"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"BUY", "amount":null,  "position":"C54"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"SELL", "amount":null,  "position":"D51"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"SELL", "amount":null,  "position":"D52"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"SELL", "amount":null,  "position":"D53"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"SELL", "amount":null,  "position":"D54"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"SELL", "amount":500,  "position":"E51"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"SELL", "amount":500,  "position":"E52"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"SELL", "amount":500,  "position":"E53"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"MTSBank", "tradtype":"SELL", "amount":500,  "position":"E54"},
+
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"BUY", "amount":500,  "position":"B57"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"BUY", "amount":500,  "position":"B58"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"BUY", "amount":500,  "position":"B59"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"BUY", "amount":500,  "position":"B60"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"BUY", "amount":null,  "position":"C57"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"BUY", "amount":null,  "position":"C58"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"BUY", "amount":null,  "position":"C59"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"BUY", "amount":null,  "position":"C60"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"SELL", "amount":null,  "position":"D57"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"SELL", "amount":null,  "position":"D58"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"SELL", "amount":null,  "position":"D59"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"SELL", "amount":null,  "position":"D60"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"SELL", "amount":500,  "position":"E57"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"SELL", "amount":500,  "position":"E58"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"SELL", "amount":500,  "position":"E59"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"HomeCreditBank", "tradtype":"SELL", "amount":500,  "position":"E60"},
+
+
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"BUY", "amount":500,  "position":"B69"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"BUY", "amount":500,  "position":"B70"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"BUY", "amount":500,  "position":"B71"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"BUY", "amount":500,  "position":"B72"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"BUY", "amount":null,  "position":"C69"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"BUY", "amount":null,  "position":"C70"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"BUY", "amount":null,  "position":"C71"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"BUY", "amount":null,  "position":"C72"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"SELL", "amount":null,  "position":"D69"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"SELL", "amount":null,  "position":"D70"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"SELL", "amount":null,  "position":"D71"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"SELL", "amount":null,  "position":"D72"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"SELL", "amount":500,  "position":"E69"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"SELL", "amount":500,  "position":"E70"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"SELL", "amount":500,  "position":"E71"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RUBfiatbalance", "tradtype":"SELL", "amount":500,  "position":"E72"},
+
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"BUY", "amount":500,  "position":"B75"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"BUY", "amount":500,  "position":"B76"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"BUY", "amount":500,  "position":"B77"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"BUY", "amount":500,  "position":"B78"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"BUY", "amount":null,  "position":"C75"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"BUY", "amount":null,  "position":"C76"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"BUY", "amount":null,  "position":"C77"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"BUY", "amount":null,  "position":"C78"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"SELL", "amount":null,  "position":"D75"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"SELL", "amount":null,  "position":"D76"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"SELL", "amount":null,  "position":"D77"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"SELL", "amount":null,  "position":"D78"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"SELL", "amount":500,  "position":"E75"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"SELL", "amount":500,  "position":"E76"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"SELL", "amount":500,  "position":"E77"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Payeer", "tradtype":"SELL", "amount":500,  "position":"E78"},
+
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"BUY", "amount":500,  "position":"B81"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"BUY", "amount":500,  "position":"B82"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"BUY", "amount":500,  "position":"B83"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"BUY", "amount":500,  "position":"B84"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"BUY", "amount":null,  "position":"C81"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"BUY", "amount":null,  "position":"C82"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"BUY", "amount":null,  "position":"C83"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"BUY", "amount":null,  "position":"C84"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"SELL", "amount":null,  "position":"D81"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"SELL", "amount":null,  "position":"D82"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"SELL", "amount":null,  "position":"D83"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"SELL", "amount":null,  "position":"D84"},
+
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"SELL", "amount":500,  "position":"E81"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"SELL", "amount":500,  "position":"E82"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"SELL", "amount":500,  "position":"E83"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"Advcash", "tradtype":"SELL", "amount":500,  "position":"E84"},
+
+
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"BUY", "amount":10,  "position":"J21"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"BUY", "amount":10,  "position":"J22"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"BUY", "amount":10,  "position":"J23"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"BUY", "amount":10,  "position":"J24"},
+
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"BUY", "amount":null,  "position":"K21"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"BUY", "amount":null,  "position":"K22"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"BUY", "amount":null,  "position":"K23"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"BUY", "amount":null,  "position":"K24"},
+
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"SELL", "amount":null,  "position":"L21"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"SELL", "amount":null,  "position":"L22"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"SELL", "amount":null,  "position":"L23"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"SELL", "amount":null,  "position":"L24"},
+
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"SELL", "amount":10,  "position":"M21"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"SELL", "amount":10,  "position":"M22"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"SELL", "amount":10,  "position":"M23"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Payeer", "tradtype":"SELL", "amount":10,  "position":"M24"},
+
+
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"BUY", "amount":10,  "position":"J15"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"BUY", "amount":10,  "position":"J16"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"BUY", "amount":10,  "position":"J17"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"BUY", "amount":10,  "position":"J18"},
+
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"BUY", "amount":null,  "position":"K15"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"BUY", "amount":null,  "position":"K16"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"BUY", "amount":null,  "position":"K17"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"BUY", "amount":null,  "position":"K18"},
+
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"SELL", "amount":null,  "position":"L15"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"SELL", "amount":null,  "position":"L16"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"SELL", "amount":null,  "position":"L17"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"SELL", "amount":null,  "position":"L18"},
+
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"SELL", "amount":10,  "position":"M15"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"SELL", "amount":10,  "position":"M16"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"SELL", "amount":10,  "position":"M17"},
+     {"symbol":"USDT", "fiat": "USD" ,"BANK":"Advcash", "tradtype":"SELL", "amount":10,  "position":"M18"}
+
+    ]
+  }
+  
