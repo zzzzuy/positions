@@ -1,6 +1,6 @@
 {
     "Spot": [
-      {"symbol":"BTCUSDT", "position":"B5"},
+      {"symbol":"BTCUSDT", "position":"B5", Replace(".", ",")},
       {"symbol":"ETHUSDT", "position":"B6"},
       {"symbol":"BNBUSDT", "position":"B7"},
       {"symbol":"BCHUSDT", "position":"B8"},
