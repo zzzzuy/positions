@@ -193,25 +193,25 @@
 
 
 
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"BUY", "amount":500,  "position":"B63"},
-     {"symbol":"BTC", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"BUY", "amount":500,  "position":"B64"},
-     {"symbol":"ETH", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"BUY", "amount":500,  "position":"B65"},
-     {"symbol":"BNB", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"BUY", "amount":500,  "position":"B66"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"BUY", "amount":500,  "position":"B63"},
+     {"symbol":"BTC", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"BUY", "amount":500,  "position":"B64"},
+     {"symbol":"ETH", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"BUY", "amount":500,  "position":"B65"},
+     {"symbol":"BNB", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"BUY", "amount":500,  "position":"B66"},
 
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"BUY", "amount":null,  "position":"C63"},
-     {"symbol":"BTC", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"BUY", "amount":null,  "position":"C64"},
-     {"symbol":"ETH", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"BUY", "amount":null,  "position":"C65"},
-     {"symbol":"BNB", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"BUY", "amount":null,  "position":"C66"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"BUY", "amount":null,  "position":"C63"},
+     {"symbol":"BTC", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"BUY", "amount":null,  "position":"C64"},
+     {"symbol":"ETH", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"BUY", "amount":null,  "position":"C65"},
+     {"symbol":"BNB", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"BUY", "amount":null,  "position":"C66"},
 
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"SELL", "amount":null,  "position":"D63"},
-     {"symbol":"BTC", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"SELL", "amount":null,  "position":"D64"},
-     {"symbol":"ETH", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"SELL", "amount":null,  "position":"D65"},
-     {"symbol":"BNB", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"SELL", "amount":null,  "position":"D66"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"SELL", "amount":null,  "position":"D63"},
+     {"symbol":"BTC", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"SELL", "amount":null,  "position":"D64"},
+     {"symbol":"ETH", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"SELL", "amount":null,  "position":"D65"},
+     {"symbol":"BNB", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"SELL", "amount":null,  "position":"D66"},
 
-     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"SELL", "amount":500,  "position":"E63"},
-     {"symbol":"BTC", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"SELL", "amount":500,  "position":"E64"},
-     {"symbol":"ETH", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"SELL", "amount":500,  "position":"E65"},
-     {"symbol":"BNB", "fiat": "RUB" ,"BANK":"RaiffeisenBankAval", "tradtype":"SELL", "amount":500,  "position":"E66"},
+     {"symbol":"USDT", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"SELL", "amount":500,  "position":"E63"},
+     {"symbol":"BTC", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"SELL", "amount":500,  "position":"E64"},
+     {"symbol":"ETH", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"SELL", "amount":500,  "position":"E65"},
+     {"symbol":"BNB", "fiat": "RUB" ,"BANK":"BCSBank", "tradtype":"SELL", "amount":500,  "position":"E66"},
 
 
 
